@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/zebra_dialog.css" type="text/css">
+  </head>
+  <body>
+    <input type="button" id="click" name="click" value="Click here">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!--    <script>window.jQuery || document.write('<script src="path/to/jquery-1.12.0.js"><\/script>')</script> -->
+    <script type="text/javascript" src="js/Zebra_Dialog.js"></script>
+    <script>
+      $(document).ready(function() {
+          // show a dialog box when clicking on a link
+          $('#click').bind('click', function(e) {
+              e.preventDefault();
+              new $.Zebra_Dialog('<div class="mcbox"><center><strong>Q mastercard</strong><br><p>Welcome To Q mastercard </p>' +
+                '<p>Bangladesh Cabinet Thanks</p></center></div>', {
+                'buttons':  false,
+                'modal': false,
+                'position': ['right - 20', 'top + 20'],
+                'auto_close': 2000
+            });
+          });
+       });
+    </script>
+
+
+  </body>
+</html>
