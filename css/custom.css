@@ -1,0 +1,611 @@
+
+  html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif-thin;
+  }
+
+.logoLogo{
+    margin-left: 50px;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+.hideDiv{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 10;
+}
+.loginDiv{
+    background-color: rgba(248,248,248,0.7);
+    margin-top: 60px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.div01{
+    border-right: 1px solid gray;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tagName{
+    text-align: center;
+    font-size: 20px;
+}
+.btnLogin{
+    width: 100%;
+    text-transform: capitalize;
+}
+.btnLoginfb{
+    width: 100%;
+    text-transform: capitalize;
+    background: #465E99;
+}
+.btnLoginfb:hover{
+    background: blue;
+}
+.btnLoginfb1{
+    margin-top: 70px;
+    width: 100%;
+    text-transform: capitalize;
+    background: #465E99;
+}
+.btnLoginfb1:hover{
+    background: #3C5A98;
+}
+.btnLoginfb:hover{
+    background: #3C5A98;
+}
+.btnLoginsp{
+    width: 100%;
+    text-transform: capitalize;
+    background: #EA6409;
+    margin-bottom: 25px;
+}
+.btnLoginsp1{
+    width: 100%;
+    text-transform: capitalize;
+    background: #EA6409;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.btnLoginsp1:hover{
+    background: #CF5300;
+}
+.btnLoginsp:hover{
+    background: #CF5300;
+}
+.note{
+    text-align: left;
+}
+.iconIcon{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dropforjoin{
+    margin-top: 25px;
+    width: 100%;
+}
+/*..............................................navbar........................................*/
+.beforNavbar{
+    background: #0077B5;
+}
+.beforNavbar2{
+    background: #55ACEE;
+}
+.searchFildNav{
+    margin-top: 25px;
+    height: 40px;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+.unsearchFildNav{
+    margin-top: -10px !important; 
+}
+.searchBtn{
+    margin-top: -28px;
+    background: #E2E2E2;
+    text-transform: capitalize;
+    color: black;
+    padding-left: 20px;
+}
+.flageImage{
+    margin-bottom: 5px !important;
+    padding-left: 280px;
+    overflow: hidden;
+}
+.loginBtn{
+    /*margin-top: 10px;*/
+    margin-left: 10px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    background: #97D077;
+}
+.registerBtn{
+    /*margin-top: 10px;*/
+    margin-left: 10px;
+    text-transform: capitalize;
+    background: #999999;
+}
+.afterNavbar{
+    background: #55ACEE;
+    position: fixed;
+    top: 85px;
+    width: 100%;
+    height: 85px;
+}
+
+
+
+nav .brand-logo {
+    margin-top: -15px;
+    margin-left: 50px;
+}
+nav form {
+    margin-left: 280px;
+    width: 380px;
+    background-color: rgba(255,255,255,0.2);
+}
+#inpuSearchFild{
+    background: white;
+    overflow: hidden;
+    height: 40px !important;
+    border-bottom: none;
+    border-radius: 3px;
+}
+#inputSearch{
+    padding-top: 60px !important;
+    color: black;
+    border-bottom: none;
+}
+#inputSearch : active {
+    border-bottom: none;
+}
+.menuUl li{
+    margin-left: 5%;
+}
+.lastMenu{
+    text-transform: uppercase;
+    margin-top: -12px;
+    font-size: 18px;
+    text-align: center;
+}
+.lastMenu2{
+    text-transform: uppercase;
+    margin-top: -20px;
+    font-size: 18px;
+    text-align: center;
+}
+.beforNavbar2 ul  li:hover{
+    height: 40px;
+    overflow: hidden;
+}
+nav ul li:hover {
+   background-color: transparent;
+}
+
+
+
+.suggTag{
+    margin-top: -45px;
+}
+
+.SnavNav{
+    background-color: rgba(242,174,114,1);
+}
+.dropdownCSS{
+    width: 300px !important;
+}
+.divDrodownMenu1{
+    /*background-color:#F48131;*/
+    position: relative;
+    width:600px !important;
+    height: 300px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    /*z-index: 100;*/
+}
+.divDrodownMenu21{
+    background-color:#F48131;
+    width:90%;
+    height: 50px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.divDrodownMenu2{
+    background-color:#0694B6;
+    width:40%;
+    height: 50px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.divDrodownMenu22{
+    background-color:#0694B6;
+    width:90%;
+    height: 50px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.divDrodownMenu3{
+    background-color:#39579A;
+    width:90%;
+    height: 50px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.npr{
+    margin-top: 50px;
+}
+.mainMenu{
+    margin-left: 2% !important;
+    margin-right: 8% !important;
+    width: 80% !important;
+    border-radius: 4px !important;
+    background-color: rgba(0,0,0,0.8);
+}
+.dropdown2{
+    border-radius: 4px !important;
+    background-color: rgba(0,0,0,0.8);
+}
+.menuSubDiv{
+    margin-top: 20px;
+}
+
+/*..........................................Hotel list..........................................*/
+
+.searchDivHotelLIst{
+    background: white;
+    border-radius: 3px;
+    height: 45px;
+    width: 370px;
+    overflow: hidden;
+}
+.inputSearchHotelLIst : active{
+    border-bottom: none;
+}
+.searchBtnHotelLIst{
+    margin-top: 19px;
+}
+.divTopBottom{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*..........................................footer..........................................*/
+.addDivFooter{
+    background: #999999;
+    margin-bottom: -20px !important;
+    height: 180px;
+}
+.divfooter1{
+    background: #DCDCDC;
+    margin-bottom: 0px !important;
+    height: 78px;
+    padding-top: 3px;
+}
+.inpuSearchFildFooter{
+    background: white;
+    height: 40px;
+    width: 600px;
+    text-align: center;
+    border-radius: 3px;
+}
+.searchBtnFooter{
+    margin-top: 16px;
+    width: 120px;
+    background: #E0E0E0;
+    color: black;
+    text-transform: capitalize;
+}
+.footerLastPart{}
+/*.............................................landingpage....................................*/
+.sliderSlider{
+    position: relative;
+}
+.sliderSlidermain{
+    z-index: -100;
+}
+.sliderDiv{
+    position: relative;
+    margin-right: -10px !important;
+    margin-left: -10px !important;
+}
+.othersEle{
+    position: absolute;
+    top: 100px;
+    right: 35px;
+    z-index: 100;
+    width: 60%;
+}
+
+
+.tabControlLP{
+    width: 100% !important;
+    z-index: 10;
+    padding-bottom: 20px;
+    /*background-color: rgba(39,40,34,.5);*/
+    /*margin-left: -10px !important;
+    margin-right: -10px !important;*/
+}
+.tabControlUl{
+    position: static;
+}
+.tabControlHeader{
+
+}
+.tabControlUl > ul{
+    background-color: transparent;
+    height: 70px;
+}
+.tabControlUl > .tabControlHeader li{
+    background-color: rgba(255,255,255,.5);
+    height: 70px;    
+}
+.tabControlUl > .tabControlHeader li a{
+    color: black !important;
+    padding-top: 10px;    
+}
+.tabControlInfoDivBefor{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.tabControlInfo{/*
+    position: static;*/
+    background-color: rgba(39,40,34,.2);
+    height: 400px;
+}
+.tabs .indicator{
+    height: 70px;
+    background-color: rgba(39,40,34,.5);
+}
+/*.active1{
+    background-color:green;
+}*/
+.searchDivBackground{
+    background-color: rgba(39,40,34,.8);
+    border-radius: 2px;
+}
+.searchDivBackground4{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 2px;
+}
+.searchDivBackground2{
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.searchDivBackground3{
+    margin-top: 55px;
+}
+.lpDatepicker1{
+    margin-top: 20px;
+}
+.lpdrpBtn{
+    margin-top: 15px;
+    padding-top: 5px;
+    height: 45px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.lpDrpSearchBody{
+    margin-top: 65px;
+    margin-left: -70px;
+    width: 300px !important;
+}
+.lpSearchBtn{
+    margin-top: 15px;
+    padding-top: 5px;
+    height: 45px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.divCountingBefore{
+    border:1px solid black;
+}
+.divCounting{
+    width: 20px;
+    display: inline-block;
+    margin:0px 0px 0px 0px !important;
+    padding:0px 0px 0px 0px !important;
+    border-left:1px solid black;
+}
+.btnDone{
+    text-align: center;
+}
+.inputFild{
+    color: white !important;
+}
+.cardDivMain{
+    height: 1200px;
+    width: 100%;
+}
+.cardDiv{
+    height: 200px;
+    width: 300px;
+    color: black;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+    margin-left: -15px !important;
+    border:1px solid black;
+    overflow: hidden;
+}
+.cardDivThingToGo{
+    height: 260px;
+    width: 470px;
+    color: black;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+    border:1px solid black;
+    overflow: hidden;
+}
+.row2{
+    margin-top: 200px;
+}
+.cadrCard{
+    height: 200px !important;
+}
+/*............................................Hotel page..............................................*/
+.hotelPage {
+    font-size: 1em !important;
+    height: 300px;
+    background-color: rgba(150,206,180,1);
+}
+.hotelPage2 {
+    font-size: 1em !important;
+    height: 100px;
+    background-color: rgba(150,206,180,1);
+}
+.locationLevel{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255,238,173,1);
+}
+.searchFilterDiv{
+    margin-top: 25px;
+    height: 855px;
+    background-color: rgba(76,104,91,1);
+    color: white;
+}
+.hotelSearchDiv{
+    margin-top: -50px !important;
+}
+.searchDivSearch{
+    margin-top: 70px;
+}
+.hotelPagination{
+    text-align: center;
+}
+.SearchResultMainDiv{
+    margin-top: 25px;
+    background-color: rgba(76,104,91,1);
+    color: white;
+}
+.divSearchResult2{
+    margin-top: -110px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.SearchResultDiv{
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.divSearchImage{
+
+}
+.SearchImage{
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.divSearchLevel{
+    margin-top: 60px;
+}
+.divSearchCheckBox{
+    margin-top: 60px;
+    border-right: 1px solid gray;
+}
+.divSearchPriceBox{
+    margin-top: 50px;
+}
+
+.a1{
+    background: blue;
+    height: 800px;
+    width: 100%;
+}
+.b2{
+    background: green;
+    height: 800px;
+    width: 100%;
+}
+.c3{
+    background: red;
+    height: 800px;
+    width: 100%;
+}
+
+.blueBule{
+    width: 50px;
+    border-radius: 0px !important;
+
+}
+/*..........................................Subscription page............................*/
+.SubscriptionDiv{
+    height: 500px;
+}
+.advertiseTable{
+    text-align: center !important;
+}
+
+/*..........................................Restaurant page............................*/
+.cbdcb{
+    margin-left: 600px;
+}
+.rMenuBtn{
+    padding-top: 70px;
+}
+/*..........................................Restaurant Menu page............................*/
+.rMenuDiv{
+    margin-top: 15PX;
+}
+.foodMenuDiv{
+}
+.cardCard{
+    border-radius: 4px;
+}
+.cardImage{
+    border-radius: 4px;
+}
+.cardContent{
+    border-radius: 4px;
+}
+.cardReveal{
+    background-color: rgba(0,0,0,.6) !important;
+    color:white !important;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+/*............................. card...................................*/
